@@ -1,0 +1,80 @@
+/* Réinitialisation des styles par défaut */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style général du corps de la page */
+body {
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 300px; /* Largeur fixe */
+    height: 150px; /* Hauteur fixe */
+    object-fit: cover; /* Conserve le ratio et remplit l'espace */
+    border: 2px solid #ccc; /* Bordure optionnelle */
+    border-radius: 8px; /* Coins arrondis optionnels */
+}
+
+.description {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Conteneur de la description */
+.description {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre de la description */
+.description h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Paragraphes de la description */
+.description p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Mise en valeur des mots-clés */
+.description strong {
+    color: #2980b9;
+}
+
+.description em {
+    font-style: italic;
+    color: #27ae60;
+}
+
+/* Style de l'iframe */
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
